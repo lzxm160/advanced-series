@@ -1,3 +1,4 @@
+// Given an array of numbers, return array of products of all other numbers (no division)
 
 int products[N]; // This is the result
 int[] arrayProduct(int a[], int N) {

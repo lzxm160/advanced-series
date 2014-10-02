@@ -1,3 +1,5 @@
+// Given a number, can you remove k digits from the number so that the new formatted number is smallest possible. input: n = 1432219, k = 3 output: 1219
+//
 class Solution 
 {
 public:

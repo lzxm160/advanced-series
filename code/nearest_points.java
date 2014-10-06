@@ -1,4 +1,5 @@
-// Given a number of points on a plane. Implement a method that by given center point and number P would return P nearest to the center points.
+// Given a number of points on a plane. Implement a method that by given center 
+// point and number P would return P nearest to the center points.
 
 class PointsOnAPlaneSolution implements  PointsOnAPlane {
  
@@ -8,7 +9,7 @@ class PointsOnAPlaneSolution implements  PointsOnAPlane {
         points.add(point);
     }
  
-    public Collection<Point> findNearest(Point center, intnumber) {
+    public Collection<Point> findNearest(Point center, int number) {
         Comparator<Point> comparator = comparatorByDistance(center);
         int limit = number + 1;
         PriorityQueue<Point> queue = newPriorityQueue<Point>(limit, comparator);
